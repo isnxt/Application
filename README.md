@@ -29,6 +29,6 @@ In a typical genomic non-SMART Cancer Navigator workflow, oncologists will presc
 1. Write a new service to query cancervariants.com based on the given hgvs_id.
 2. Add a new association tab to visualize the results.
 
-### screenshot
+### Screenshot
 ![screenshot](./screenshot/1.png)
 ![screenshot](./screenshot/2.png)
