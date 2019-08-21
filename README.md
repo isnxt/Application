@@ -27,18 +27,18 @@ In a typical genomic non-SMART Cancer Navigator workflow, oncologists will presc
 
 ## My Work
 1. Write a new service to searching for a given HGVS_id on associations (search.cancervariants.org) returns a list of hits, each with:
-- variant_name 
-- description
-- environmentalContexts (list of objects) with id (RxNorm)
-- evidence_label “C”
-- evidence_level 3
-- some phenotypes (coded in obolibrary.org)
-- a separate publication_url
-- response_type “Sensitivity”
-- source_link
-- diseases
-- drugs
-- feature_names
+  - variant_name 
+  - description
+  - environmentalContexts (list of objects) with id (RxNorm)
+  - evidence_label “C”
+  - evidence_level 3
+  - some phenotypes (coded in obolibrary.org)
+  - a separate publication_url
+  - response_type “Sensitivity”
+  - source_link
+  - diseases
+  - drugs
+  - feature_names
 
 2. Add a new association tab to visualize the reationship between gene-drug-associaiton and gene-disease-association.
 
