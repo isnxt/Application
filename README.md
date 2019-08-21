@@ -26,8 +26,21 @@ In a typical genomic non-SMART Cancer Navigator workflow, oncologists will presc
 1. See the [smart-cancer-navigator.github.io](https://github.com/smart-cancer-navigator/smart-cancer-navigator.github.io) repository.
 
 ## My Work
-1. Write a new service to query cancervariants.com based on the given hgvs_id.
-2. Add a new association tab to visualize the results.
+1. Write a new service to searching for a given HGVS_id on associations (search.cancervariants.org) returns a list of hits, each with:
+- variant_name 
+- description
+- environmentalContexts (list of objects) with id (RxNorm)
+- evidence_label “C”
+- evidence_level 3
+- some phenotypes (coded in obolibrary.org)
+- a separate publication_url
+- response_type “Sensitivity”
+- source_link
+- diseases
+- drugs
+- feature_names
+
+2. Add a new association tab to visualize the reationship between gene-drug-associaiton and gene-disease-association.
 
 ### Screenshot
 ![screenshot](./screenshot/1.png)
