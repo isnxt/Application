@@ -25,3 +25,10 @@ In a typical genomic non-SMART Cancer Navigator workflow, oncologists will presc
 ### Deploying to Production
 1. See the [smart-cancer-navigator.github.io](https://github.com/smart-cancer-navigator/smart-cancer-navigator.github.io) repository.
 
+## My Work
+1. Write a new service to query cancervariants.com based on the given hgvs_id.
+2. Add a new association tab to visualize the results.
+
+### screenshot
+![screenshot](./screenshot/1.png)
+![screenshot](./screenshot/2.png)
